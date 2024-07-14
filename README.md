@@ -4,7 +4,7 @@ All exports are compressed as 7zip archives and encrypted with the specified pas
 All backups will be created in the directory where the script is located.  
 
 It uses gum (https://github.com/charmbracelet/gum) for the menu. Gum will be installed in ~/.local/bin if it is not installed already.  
-An entry in ~/.bashrc or ~/.profile to add ~/.local/bin to PATH will also be created.  
+An entry in ~/.bashrc to add ~/.local/bin to PATH will also be created.  
 
 If you are using Fedora Silverblue, a Podman container will be created (Where 7zip and xmlstarlet will be installed).  
 
